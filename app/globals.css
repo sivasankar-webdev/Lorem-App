@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*
+  Global reduced-motion guard. Section-level GSAP/Motion animations
+  each additionally check prefers-reduced-motion in JS (see
+  hooks/useReducedMotion.js) so they can swap to a static/instant
+  equivalent rather than merely speeding up — this CSS layer is a
+  safety net for anything not explicitly branched in JS.
+*/
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,17 @@
+<!--
+  PLACEHOLDER ICON — not a supplied project asset.
+  Only icon1.svg–icon4.svg were provided; a 5th icon for the
+  "Financial Institutions" badge was never supplied (see
+  PROJECT_HANDOFF.md → KNOWN ISSUES #2). This generic bank/institution
+  glyph is a stand-in so the section renders 5 complete badges; swap
+  this file (or the icon path in WhoItsFor.jsx) for the real icon5.svg
+  the moment it's available.
+-->
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 4.5L39.5 13.5V16.5H4.5V13.5L22 4.5Z" fill="#E7B101" stroke="#F7F7F7" stroke-width="0.7" stroke-linejoin="round"/>
+  <rect x="8" y="19" width="3.5" height="14" fill="#E7B101" stroke="#F7F7F7" stroke-width="0.7"/>
+  <rect x="16.25" y="19" width="3.5" height="14" fill="#E7B101" stroke="#F7F7F7" stroke-width="0.7"/>
+  <rect x="24.25" y="19" width="3.5" height="14" fill="#E7B101" stroke="#F7F7F7" stroke-width="0.7"/>
+  <rect x="32.5" y="19" width="3.5" height="14" fill="#E7B101" stroke="#F7F7F7" stroke-width="0.7"/>
+  <rect x="5" y="35" width="34" height="3.5" fill="#E7B101" stroke="#F7F7F7" stroke-width="0.7"/>
+</svg>
