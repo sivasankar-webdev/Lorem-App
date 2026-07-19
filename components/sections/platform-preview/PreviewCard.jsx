@@ -25,7 +25,7 @@ export default function PreviewCard({ cardRef, title, description, index }) {
 
       <div className="relative h-[250px] sm:h-[320px] md:h-auto min-h-[220px] sm:min-h-[280px] md:min-h-[390px] flex-1 overflow-hidden rounded-2xl border border-black/5">
         <Image
-          src="/dashboard-preview.png"
+          src="/images/dashboard-preview.png"
           alt="Verification platform dashboard"
           fill
           sizes="(min-width: 768px) 60vw, 90vw"
