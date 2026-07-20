@@ -201,10 +201,10 @@ export default function Hero() {
         <div className="relative z-10 flex h-full w-full max-w-[1320px] flex-col items-center justify-end gap-8 px-6 pb-8 md:gap-10 md:pb-10">
           {/* Phone + stat cards cluster */}
           <div className="relative z-10 mb-[-2px] w-fit">
-            <div
-              ref={statLeftRef}
-              className="absolute top-[1%]  right-full z-20 translate-x-4 sm:translate-x-10 md:translate-x-12 lg:translate-x-14 scale-75 sm:scale-100"
-            >
+           <div
+                ref={statLeftRef}
+                className="absolute top-[-30%] sm:top-[1%] right-full z-20 translate-x-4 sm:translate-x-10 md:translate-x-12 lg:translate-x-14 origin-top-right scale-50 sm:scale-100"
+              >
               <StatCard
                 icon={<AvatarStack />}
                 value="250+"
@@ -228,7 +228,7 @@ export default function Hero() {
 
             <div
               ref={statRightRef}
-              className="absolute top-[5%] left-full z-20 -translate-x-4 sm:-translate-x-10 md:-translate-x-12 lg:-translate-x-14 scale-75 sm:scale-100"
+              className="absolute top-[-30%] sm:top-[15%] left-full z-20 -translate-x-4 sm:-translate-x-10 md:-translate-x-12 lg:-translate-x-14 scale-75 sm:scale-100"
             >
               <StatCard
                 icon={<VerifiedIcon />}
